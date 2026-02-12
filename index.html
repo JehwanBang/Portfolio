@@ -37,7 +37,7 @@
 					<section id="wrapper">
 
 						<!-- One -->
-							<section id="one" class="wrapper spotlight style2">
+							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
 									<a href="#" class="image"><img src="images/Linkedin.jpg" alt="" /></a>
 									<div class="content">
@@ -69,6 +69,62 @@
 									</div>
 								</div>
 							</section>
+						/* Remove any template centering */
+#one {
+    padding: 80px 0;
+}
+
+/* Main layout */
+#one .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+/* Text section */
+#one .text {
+    flex: 1.3;
+    text-align: left;
+}
+
+/* Image section */
+#one .photo {
+    flex: 0.9;
+}
+
+#one .photo img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 50%;
+}
+
+/* Typography */
+#one h2 {
+    margin-bottom: 30px;
+}
+
+#one h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#one p {
+    line-height: 1.8;
+    margin-bottom: 18px;
+    font-size: 1.05rem;
+}
+
+#one ul {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+#one li {
+    margin-bottom: 10px;
+}
+
 
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
@@ -163,6 +219,7 @@
 
 	</body>
 </html>
+
 
 
 
